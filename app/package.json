@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "my awesome node app with yarn on docker",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/ellerbrock/yarn-docker",
+    "type": "git"
+  },
+  "author": "Maik Ellerbrock (github.com/ellerbrock)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "sysinfo": "echo \"os: `uname -s`\nnode: `node --version`\nnpm: `npm --version`\nyarn: `yarn --version`\""
+  }
+}
