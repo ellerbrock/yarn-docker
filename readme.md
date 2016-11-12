@@ -5,6 +5,11 @@
 - Dockerfile: <https://github.com/ellerbrock/yarn-docker/blob/master/Dockerfile>
 - Base Image: [frapsoft/node](https://hub.docker.com/r/frapsoft/node/)
 
+## Versions
+
+- `frapsoft/yarn` -  Node.js [(latest)](https://github.com/ellerbrock/yarn-docker) LTS (6.9.1) with yarn instead of npm
+- `frapsoft/node:npm` - Node.js [(npm)](https://github.com/ellerbrock/node-docker/tree/light) LTS (6.9.1) with yarn and npm
+
 ## Installation
 
 `docker pull frapsoft/yarn`
