@@ -1,5 +1,7 @@
 # yarn with Node.js LTS (6.9.1) Alpine Linux
 
+[![Docker Automated Build](https://img.shields.io/docker/automated/frapsoft/yarn.svg)](https://hub.docker.com/r/frapsoft/yarn/) [![Docker Pulls](https://img.shields.io/docker/pulls/frapsoft/yarn.svg)](https://hub.docker.com/r/frapsoft/yarn/) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg)](https://github.com/ellerbrock/open-source-badges/) [![Gitter Chat](https://badges.gitter.im/frapsoft/frapsoft.svg)](https://gitter.im/frapsoft/frapsoft/)
+
 - Docker Hub: [frapsoft/yarn](https://hub.docker.com/r/frapsoft/yarn/)
 - Repository: <https://github.com/ellerbrock/yarn-docker>
 - Dockerfile: <https://github.com/ellerbrock/yarn-docker/blob/master/Dockerfile>
