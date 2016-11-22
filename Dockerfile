@@ -1,10 +1,6 @@
 FROM frapsoft/node:yarn
 
-MAINTAINER Maik Ellerbrock (github.com/ellerbrock)
-
-ENV CONTAINER_VERSION 0.0.1
-ENV CONTAINER_NAME frapsoft/yarn
-ENV CONTAINER_REPO https://github.com/ellerbrock/yarn-docker
+MAINTAINER Maik Ellerbrock (https://github.com/ellerbrock)
 
 USER root
 
@@ -14,4 +10,5 @@ RUN yarn self-update && \
 USER app
 
 ENTRYPOINT ["yarn"]
+
 CMD ["--version"]
